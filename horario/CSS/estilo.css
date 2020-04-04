@@ -1,0 +1,233 @@
+body{
+	background-image:url('../imagens/backgroundTelaIncial.png'); 
+	background-size: 210vh 120vh;
+}
+select{
+	width: 200px!important;
+}
+
+.nomefixo{
+	position: fixed;
+}
+
+#backgroundlogin{
+	background-color: #ffffff;
+	margin-top: 20vh;
+	height: 60vh; 
+	font-family: Montserrat;
+	color: white;
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+@font-face{
+	font-family:Roboto;
+	src:url('../Roboto.ttf'); 
+}
+
+@font-face{
+	font-family:Montserrat;
+	src:url('../Montserrat.otf');  
+}
+.roboto{
+	font-family: Roboto;
+}
+.montserrat{
+	font-family: Montserrat;
+}
+#botaoentrar{
+	background-color:#f8a14a;
+	color: white;
+	margin-left: 35%;
+	width: 25%;
+	border:none;
+	height: 40px;
+}
+#botaoentrar:hover{
+	background-color: #f88d4d; 
+	color: white;
+	transition: .2s; 
+}
+#inputinicial{
+	border-radius: 0%;
+	border: .5px solid lightgray;
+	height: 50px;
+}
+#tmnhimg{
+	height: auto;
+	width: 40vh;
+}
+
+#barra {
+	padding: 0px!important;
+	background-color: rgba(250,162,68,0.8);		
+	width: 30vh;
+	height: 200vh;
+	text-decoration: none;
+	position: fixed!important;
+	color:#fff;
+}	
+.pad0{
+	padding: 0px!important;
+	list-style-type: none;
+}
+
+.menu{
+
+	width: 30vh;	
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: Montserrat;
+	font-size: 25px;
+	height: 80px;
+	transition-duration:  0.3s;
+	text-shadow: 1px 1px 3px gray;
+}
+.menu:hover{
+	width: 33vh;	
+	transition-duration:  0.3s;
+}
+#menulogo{
+	background-color: #d57300;
+}
+#menu1{
+	background-color: #e27d00;	
+}
+#menu2{
+	background-color: #ef8800;	
+}
+#menu3{
+	background-color: #fc9303;	
+}
+#menu4{
+	background-color: #ff9e1a;	
+}
+#menu5{
+	background-color: #ffa929;	
+}
+#menu6{
+	background-color: #ffb437;	
+}
+#imgmenu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 80px;
+	width: auto;
+	padding-left: 5vh;
+}
+.padleft30vh{
+	padding-left: 30vh;
+}
+.blocobranco{
+	background-color: white;
+	height: 80vh;
+	width: 150vh;
+	margin-top: 10vh;
+	margin-left: 10vh;
+	position: fixed;
+}
+.blocobranco_organizar{
+
+	overflow:auto;
+	background-color: white;
+	height: 80vh;
+	width: 150vh;
+	margin-top: 10vh;
+	margin-left: 10vh;
+	position: fixed;
+}
+.titulo{
+	padding-top: 1%;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 40px;
+}
+.titulomenor{
+	padding-top: 1%;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 30px;
+}
+.titulomenorainda{
+	padding-top: 2%;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 20px;	
+}
+.noventa{
+	width: 90%;
+}
+
+.bordalateraldireita{
+	height: 65vh;
+	border-right: 1px solid lightgray;
+
+}
+.buttoncadastrar{
+	margin-left: 27vh!important; 
+	width: 20%!important;
+	transition: .2s!important; 
+}
+
+.buttoncadastrar:hover{
+	background-color: #f88d4d!important; 
+	color: white;
+	transition: .2s; 
+}
+.trhead{
+	color: white;
+	background-color: orange;
+}
+.tabelacomscroll{
+	height: 250px!important;
+	overflow: auto;
+}
+.checkbox{
+	background-color: purple!important;
+}
+a{
+	text-decoration: none!important;
+	color: inherit!important; 
+}
+.tabeladisciplinas{
+	height: 500px!important;
+	overflow: auto;	
+}
+.numerodedisc{
+	text-align: right!important;
+	width: 100px;
+	float: right!important;
+	border-radius: 5%;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom-color: lightgray!important;
+	outline: 0;
+}
+.tabledohorario td{
+	border-left:1px solid lightgray!important;
+}
+
+.alturadasdisc{
+	height: 50vh!important;
+	overflow: auto;	
+}
+#incorreto{
+	position: relative;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+.centrar{
+	/*padding-left: 45vh!important;*/
+	padding-top: 1%;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 40px;
+
+}
+.afastarm{
+	padding-left: 55vh!important;
+
+}
